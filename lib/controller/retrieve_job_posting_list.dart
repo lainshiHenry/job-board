@@ -7,10 +7,11 @@ List<Widget> retrieveJobPostingList() {
   for (var element in sampleJobPosting) {
     _resultingList.add(
       ListTile(
-        contentPadding: EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
+        contentPadding:
+            const EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
         title: Text(
           element.getJobPostingPositionTitle!,
-          style: TextStyle(
+          style: const TextStyle(
             fontSize: 24.0,
             fontWeight: FontWeight.bold,
           ),
@@ -20,7 +21,7 @@ List<Widget> retrieveJobPostingList() {
           children: [
             Text(
               element.getJobPostingCompanyName!,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 14.0,
                 fontWeight: FontWeight.bold,
               ),

@@ -13,4 +13,8 @@ final List<BottomNavigationBarItem> bottomNavBarList = [
     icon: Icon(Icons.message),
     label: 'Messages',
   ),
+  const BottomNavigationBarItem(
+    icon: Icon(Icons.favorite),
+    label: 'Saved Postings',
+  ),
 ];

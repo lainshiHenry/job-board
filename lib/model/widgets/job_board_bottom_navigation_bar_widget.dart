@@ -6,5 +6,11 @@ final List<BottomNavigationBarItem> bottomNavBarList = [
     icon: Icon(Icons.home),
   ),
   const BottomNavigationBarItem(
-      icon: Icon(Icons.view_list_rounded), label: 'Job Postings'),
+    icon: Icon(Icons.view_list_rounded),
+    label: 'Job Postings',
+  ),
+  const BottomNavigationBarItem(
+    icon: Icon(Icons.message),
+    label: 'Messages',
+  ),
 ];

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:job_board_app/view/job_board_screen.dart';
+import 'package:job_board_app/view/screens/main_layout_screen.dart';
 
 import 'model/constants/theme_data.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: lightTheme,
-      home: const JobBoardScreen(),
+      home: const MainLayoutScreen(),
     );
   }
 }
